@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard Demo</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f0f2f5; }
+    .sidebar {
+      position: fixed; top:0; left:0; bottom:0; width:200px;
+      background:#0057b8; padding:2rem 1rem; color:white;
+    }
+    .sidebar a { display:block; color:white; margin:1rem 0; text-decoration:none; }
+    .main { margin-left:200px; padding:2rem; }
+    .cards { display:flex; gap:2rem; flex-wrap:wrap; }
+    .card {
+      background:white; padding:1.5rem; border-radius:8px;
+      box-shadow:0 4px 15px rgba(0,0,0,0.1); flex:1; min-width:200px;
+    }
+    .card h2 { margin-bottom:.5rem; color:#0057b8; }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Dashboard</h2>
+    <a href="#">Overview</a>
+    <a href="#">Analytics</a>
+    <a href="#">Settings</a>
+  </div>
+  <div class="main">
+    <h1>Welcome, Benard</h1>
+    <div class="cards">
+      <div class="card">
+        <h2>Users</h2>
+        <p>1,234</p>
+      </div>
+      <div class="card">
+        <h2>Sales</h2>
+        <p>$12,345</p>
+      </div>
+      <div class="card">
+        <h2>Visits</h2>
+        <p>8,910</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

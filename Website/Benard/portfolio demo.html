@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Demo</title>
+  <style>
+    body { margin:0; font-family: 'Poppins', sans-serif; background:#f5f5f5; color:#333; }
+    nav { background:white; padding:1rem 2rem; display:flex; justify-content:space-between; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
+    nav a { color:#0057b8; font-weight:600; margin-left:1rem; }
+    .hero { padding:4rem 2rem; text-align:center; }
+    .hero h1 { margin-bottom:.5rem; font-size:2.5rem; }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:2rem; padding:2rem; }
+    .card { background:white; border-radius:8px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.1); }
+    .card img { width:100%; height:150px; object-fit:cover; }
+    .card-content { padding:1rem; }
+    .card-content h3 { margin-bottom:.5rem; }
+    .card-content p { font-size:.9rem; color:#555; }
+    footer { background:#333; color:white; text-align:center; padding:1rem; margin-top:2rem; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div><strong>Benard Atika</strong></div>
+    <div>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+  <section class="hero">
+    <h1>My Work</h1>
+    <p>Here are a few highlights of what I’ve built.</p>
+  </section>
+  <section id="projects" class="cards">
+    <div class="card">
+      <img src="https://picsum.photos/id/1015/400/150" alt="Project 1">
+      <div class="card-content">
+        <h3>Travel Blog UI</h3>
+        <p>A clean, image-centric layout for travel writers.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://picsum.photos/id/1021/400/150" alt="Project 2">
+      <div class="card-content">
+        <h3>E-Commerce Store</h3>
+        <p>Modern grid and filter system for product browsing.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://picsum.photos/id/1032/400/150" alt="Project 3">
+      <div class="card-content">
+        <h3>Blog Platform</h3>
+        <p>Minimalist reading experience with dark/light toggle.</p>
+      </div>
+    </div>
+  </section>
+  <footer id="contact">
+    <p>Contact me at <a href="mailto:benardmachuka08@gmail.com">benardmachuka08@gmail.com</a></p>
+  </footer>
+</body>
+</html>
