@@ -1,0 +1,75 @@
+---
+// Hero Section Component
+---
+
+<section id="hero" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-50 via-white to-secondary-50 relative overflow-hidden">
+  <!-- Background Decoration -->
+  <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cg%20fill%3D%22%236366f1%22%20fill-opacity%3D%220.05%22%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2230%22%20r%3D%224%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-40"></div>
+  
+  <div class="container mx-auto px-6 lg:px-8 text-center relative z-10">
+    <div class="max-w-4xl mx-auto">
+      <!-- Profile Image -->
+      <div class="mb-8 animate-fade-in">
+        <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-primary-400 to-secondary-400 p-1 shadow-xl">
+          <img 
+            src="/images/Benard.jpeg" 
+            alt="Benard Atika - Front-End Web Developer" 
+            class="w-full h-full rounded-full object-cover"
+            loading="eager"
+          />
+        </div>
+      </div>
+      
+      <!-- Main Heading -->
+      <h1 class="text-5xl md:text-7xl font-bold text-gray-900 mb-6 animate-slide-up">
+        <span class="bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
+          Benard Atika
+        </span>
+      </h1>
+      
+      <!-- Title -->
+      <h2 class="text-2xl md:text-3xl font-semibold text-gray-700 mb-4 animate-slide-up" style="animation-delay: 0.2s;">
+        Front-End Web Developer
+      </h2>
+      
+      <!-- Subheadline -->
+      <p class="text-xl md:text-2xl text-gray-600 mb-8 animate-slide-up" style="animation-delay: 0.4s;">
+        Building blazing-fast, pixel-perfect, SEO-optimized websites
+      </p>
+      
+      <!-- USP -->
+      <p class="text-lg text-gray-500 mb-12 max-w-2xl mx-auto animate-slide-up" style="animation-delay: 0.6s;">
+        Transforming your vision into high-performance web experiences that drive results and engage users
+      </p>
+      
+      <!-- CTA Buttons -->
+      <div class="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up" style="animation-delay: 0.8s;">
+        <a 
+          href="#contact" 
+          class="inline-flex items-center px-8 py-4 bg-accent-500 hover:bg-accent-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
+        >
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+          </svg>
+          Hire Me Now
+        </a>
+        <a 
+          href="#portfolio" 
+          class="inline-flex items-center px-8 py-4 bg-white hover:bg-gray-50 text-primary-600 font-semibold rounded-lg border-2 border-primary-600 hover:border-primary-700 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
+        >
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+          </svg>
+          View My Work
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Scroll Indicator -->
+  <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce-gentle">
+    <div class="w-6 h-10 border-2 border-gray-400 rounded-full flex justify-center">
+      <div class="w-1 h-3 bg-gray-400 rounded-full mt-2 animate-pulse"></div>
+    </div>
+  </div>
+</section>

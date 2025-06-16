@@ -1,0 +1,123 @@
+---
+// About & Skills Section
+---
+
+<section id="about" class="py-20 bg-white">
+  <div class="container mx-auto px-6 lg:px-8">
+    <div class="max-w-6xl mx-auto">
+      <!-- Section Header -->
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          About <span class="text-primary-600">Me</span>
+        </h2>
+        <div class="w-24 h-1 bg-gradient-to-r from-primary-600 to-secondary-600 mx-auto"></div>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+        <!-- About Text -->
+        <div class="space-y-6">
+          <p class="text-lg text-gray-600 leading-relaxed">
+            I'm a passionate Front-End Web Developer with expertise in modern web technologies and a keen eye for design. I specialize in creating high-performance, responsive websites that not only look stunning but also deliver exceptional user experiences.
+          </p>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            With a focus on clean code and best practices, I help businesses establish a strong online presence through custom web solutions. My approach combines technical excellence with creative problem-solving to deliver results that exceed expectations.
+          </p>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            When I'm not coding, I stay updated with the latest web technologies and design trends to ensure my clients always receive cutting-edge solutions that drive their business forward.
+          </p>
+        </div>
+        
+        <!-- Profile Image -->
+        <div class="relative">
+          <div class="aspect-square rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
+            <img 
+              src="/images/atika.jpeg"
+              alt="Benard Atika working on development"
+              class="w-full h-full object-cover"
+              loading="lazy"
+            />
+          </div>
+          <div class="absolute -top-4 -left-4 w-32 h-32 bg-gradient-to-r from-primary-400 to-secondary-400 rounded-full opacity-20 -z-10"></div>
+          <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-gradient-to-r from-accent-400 to-primary-400 rounded-full opacity-20 -z-10"></div>
+        </div>
+      </div>
+      
+      <!-- Skills Grid -->
+      <div>
+        <h3 class="text-3xl font-bold text-gray-900 text-center mb-12">
+          Core <span class="text-primary-600">Skills</span>
+        </h3>
+        
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+          <!-- Skill Card: Astro -->
+          <div class="group bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-md hover:shadow-xl border border-gray-100 hover:border-primary-200 transform hover:-translate-y-2 transition-all duration-300">
+            <div class="text-center">
+              <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-orange-400 to-red-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+              </div>
+              <h4 class="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">Astro</h4>
+            </div>
+          </div>
+          
+          <!-- Skill Card: Tailwind CSS -->
+          <div class="group bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-md hover:shadow-xl border border-gray-100 hover:border-primary-200 transform hover:-translate-y-2 transition-all duration-300">
+            <div class="text-center">
+              <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 6c-2.67 0-4.33 1.33-5 4 1-1.33 2.17-1.83 3.5-1.5.76.19 1.31.74 1.91 1.35.98 1 2.12 2.15 4.59 2.15 2.67 0 4.33-1.33 5-4-1 1.33-2.17 1.83-3.5 1.5-.76-.19-1.31-.74-1.91-1.35C15.61 7.15 14.47 6 12 6zM7 12c-2.67 0-4.33 1.33-5 4 1-1.33 2.17-1.83 3.5-1.5.76.19 1.31.74 1.91 1.35.98 1 2.12 2.15 4.59 2.15 2.67 0 4.33-1.33 5-4-1 1.33-2.17 1.83-3.5 1.5-.76-.19-1.31-.74-1.91-1.35C10.61 13.15 9.47 12 7 12z"/>
+                </svg>
+              </div>
+              <h4 class="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">Tailwind CSS</h4>
+            </div>
+          </div>
+          
+          <!-- Skill Card: JavaScript -->
+          <div class="group bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-md hover:shadow-xl border border-gray-100 hover:border-primary-200 transform hover:-translate-y-2 transition-all duration-300">
+            <div class="text-center">
+              <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <span class="text-white font-bold text-lg">JS</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">JavaScript</h4>
+            </div>
+          </div>
+          
+          <!-- Skill Card: TypeScript -->
+          <div class="group bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-md hover:shadow-xl border border-gray-100 hover:border-primary-200 transform hover:-translate-y-2 transition-all duration-300">
+            <div class="text-center">
+              <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <span class="text-white font-bold text-lg">TS</span>
+              </div>
+              <h4 class="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">TypeScript</h4>
+            </div>
+          </div>
+          
+          <!-- Skill Card: Responsive Design -->
+          <div class="group bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-md hover:shadow-xl border border-gray-100 hover:border-primary-200 transform hover:-translate-y-2 transition-all duration-300">
+            <div class="text-center">
+              <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-green-400 to-green-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a1 1 0 001-1V4a1 1 0 00-1-1H8a1 1 0 00-1 1v16a1 1 0 001 1z"></path>
+                </svg>
+              </div>
+              <h4 class="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">Responsive Design</h4>
+            </div>
+          </div>
+          
+          <!-- Skill Card: Performance Tuning -->
+          <div class="group bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl shadow-md hover:shadow-xl border border-gray-100 hover:border-primary-200 transform hover:-translate-y-2 transition-all duration-300">
+            <div class="text-center">
+              <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-purple-400 to-purple-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                </svg>
+              </div>
+              <h4 class="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">Performance Tuning</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

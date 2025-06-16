@@ -1,0 +1,63 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout title="Blog - Benard Atika | Web Development Tips & Insights">
+  <main class="min-h-screen bg-gray-50">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-primary-600 to-secondary-600 py-20">
+      <div class="container mx-auto px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center text-white">
+          <h1 class="text-4xl md:text-5xl font-bold mb-4">
+            Web Development Blog
+          </h1>
+          <p class="text-xl text-primary-100 mb-8">
+            Tips, tutorials, and insights on modern web development
+          </p>
+          <div class="w-24 h-1 bg-white mx-auto"></div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Blog Posts -->
+    <section class="py-20">
+      <div class="container mx-auto px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+          <!-- Coming Soon Message -->
+          <div class="text-center bg-white rounded-xl shadow-lg p-12">
+            <div class="w-24 h-24 mx-auto mb-6 bg-primary-100 rounded-full flex items-center justify-center">
+              <svg class="w-12 h-12 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path>
+              </svg>
+            </div>
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">
+              Blog Coming Soon!
+            </h2>
+            <p class="text-lg text-gray-600 mb-8">
+              I'm working on creating valuable content about web development, best practices, and industry insights. Stay tuned for updates!
+            </p>
+            <div class="space-y-4">
+              <p class="text-gray-500">
+                In the meantime, feel free to:
+              </p>
+              <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a 
+                  href="/#portfolio" 
+                  class="inline-flex items-center px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg transition-colors"
+                >
+                  View My Portfolio
+                </a>
+                <a 
+                  href="/#contact" 
+                  class="inline-flex items-center px-6 py-3 border-2 border-primary-600 text-primary-600 hover:bg-primary-50 font-semibold rounded-lg transition-colors"
+                >
+                  Get In Touch
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
